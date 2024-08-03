@@ -5,11 +5,11 @@ export const NothingSelectedView = () => {
   return (
     <Grid
       container
+      className='animate__animated animate__fadeIn animated__faster'
       spacing={0}
       direction='column'
       alignItems='center'
       justifyContent='center'
-      className='box-shadow'
       sx={{
         minHeight: 'calc(100vh - 120px)',
         backgroundColor: 'primary.main',
