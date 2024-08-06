@@ -19,6 +19,6 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'react/jsx-uses-react': 2,
-    'react/jsx-uses-vars': 'error',
+    'react/jsx-uses-vars': 'info',
   },
 };

@@ -6,7 +6,6 @@ import { startLogouth } from '../../store/auth';
 export const Navbar = ({ drawerWidth = 240 }) => {
   const dispatch = useDispatch();
   const onLogout = () => {
-    console.log('onLogouth');
     dispatch(startLogouth());
   };
 
