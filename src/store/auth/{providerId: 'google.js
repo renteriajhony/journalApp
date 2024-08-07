@@ -1,1 +1,0 @@
-{ providerId: 'google.com', signInMethod: 'google.com', pendingToken: null, idToken: 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImUyNmQ5MTdiMWZlOGRlMT…wp5425eQHCU_CX8bn06LzLeopMHqtYM5Nk1rgWQTOdV7EGGgw', accessToken: 'ya29.a0AXooCgviM2ogo4bDXKyBXJZPNDDsJuOvR2quS8Ks49h…NGaCgYKAagSARMSFQHGX2Mi_deN0iBer_AmzCV-A--Pxw0171' }

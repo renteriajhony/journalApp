@@ -1,6 +1,11 @@
+
+
 export const fileUpload = async (file) => {
-  if (!file) throw new Error('No files to upload');
+  // if (!file) throw new Error('No files to upload');
+  if (!file) return null;
+
   const cloudUrl = 'https://api.cloudinary.com/v1_1/dtogemmt6/upload';
+
   const formData = new FormData();
   formData.append('upload_preset', 'react-journal');
   formData.append('file', file);

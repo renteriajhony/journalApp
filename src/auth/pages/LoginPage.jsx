@@ -25,6 +25,9 @@ const formData = {
 };
 
 export const LoginPage = () => {
+  /* console.log(import.meta.env); */
+  console.log(import.meta.env.VITE_HOLA);
+
   const dispatch = useDispatch();
   const { status, errorMessage } = useSelector((state) => state.auth);
 
